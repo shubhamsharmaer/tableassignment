@@ -1,0 +1,25 @@
+{
+    "Fund Raising - Priyank": [
+        "Fund Raising"
+    ],
+    "Strategies for Growth - Priyank":["Founding Team",
+    "Founder",
+    "Overall Company Strategy"],
+    "Operations Management - Ankit":["Admin","Legal","Strategic Operations"],
+    "Team Building - Gunjan":["Recruitment","Team Retention"],
+    "Customers - Ankit": [
+        "Existing Customers",
+        "New Customers",
+        "CRM"
+    ],
+    "Commercial Growth - Kapil Dev": [
+        "Commercial Growth"
+    ],
+    "Branding - Kapil Dev":["Branding"],
+    "Quant Infra - Ishaan": ["Infra"],
+    "Quant Research - Ravi":["Quant Research"],
+    "Quant Analytics - Ayush":["Quant Analytics"],
+    "Quant Development - Ayush": ["Quant Development"],
+    "Quant Delivery - Ankit": ["Quant Delivery"],
+    "Finance - Ankit": ["Revenue", "Expenses", "Accounting"]
+}
