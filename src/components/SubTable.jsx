@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const SubTable = ({ tasks, onTaskCountChange }) => {
   
@@ -10,12 +10,11 @@ const SubTable = ({ tasks, onTaskCountChange }) => {
   }, {});
 
   const [expandedSubDepartments, setExpandedSubDepartments] = useState({});
-  
-  React.useEffect(() => {
+
+  useEffect(() => {
     onTaskCountChange(tasks.length);
-    // console.log()
   }, [tasks, onTaskCountChange]);
-  
+
   const toggleSubDepartment = (subDept) => {
     setExpandedSubDepartments((prev) => ({
       ...prev,
@@ -116,7 +115,7 @@ const SubTable = ({ tasks, onTaskCountChange }) => {
                         </tr>
                       </thead>
                       <tbody>
-                        {tasks.map((task, idx) => (
+                        {tasks.map((task) => (
                           <tr key={task._id.$oid}>
                             <td className="border border-gray-300 px-4 py-2">{task.status}</td>
                             <td className="border border-gray-300 px-4 py-2">{task.task_description}</td>
